@@ -19,5 +19,8 @@ public class Populator implements CommandLineRunner {
     public void run(String... args) throws Exception {
         User sample1 = new User("UserOne");
         User sample2 = new User("UserTwo");
+
+        userRepo.save(sample1);
+        userRepo.save(sample2);
     }
 }

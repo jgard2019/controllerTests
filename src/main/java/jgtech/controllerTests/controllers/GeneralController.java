@@ -13,7 +13,6 @@ public class GeneralController {
 
     private UserRepository userRepo;
 
-
     public GeneralController(UserRepository userRepo) {
         this.userRepo = userRepo;
     }
@@ -24,5 +23,5 @@ public class GeneralController {
     }
 
 
-    
+
 }
